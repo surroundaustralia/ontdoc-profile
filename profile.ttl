@@ -13,29 +13,29 @@
     dcterms:modified "2020-08-26"^^xsd:date ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     skos:definition "A profile for the publication of OWL2 ontologies, characterised according to The Profiles Vocabulary"@en ;
-    skos:prefLabel "Ontology Documentation Profile" ;
+    dcterms:title "Ontology Documentation Profile" ;
     prof:hasResource [
-        skos:prefLabel "Specification Document"@en ;
+        dcterms:title "Specification Document"@en ;
         dcterms:conformsTo <https://www.w3.org/TR/html52/> ;
         dcterms:format "text/html" ;
         prof:hasArtifact <https://w3id.org/profile/ontdoc/specification.html> ;
         prof:hasRole role:specification
     ] ,
     [
-        skos:prefLabel "Validator in SHACL"@en ;
+        dcterms:title "Validator in SHACL"@en ;
         dcterms:conformsTo <https://www.w3.org/TR/shacl/> ;
         dcterms:format "text/turtle" ;
         prof:hasArtifact <https://w3id.org/profile/ontdoc/validation.ttl> ;
         prof:hasRole role:validation
     ] ,
     [
-        skos:prefLabel "Profile code repository"@en ;
+        dcterms:title "Profile code repository"@en ;
         dcterms:description "Code repository storing all Profile artifacts"@en ;
         prof:hasArtifact <https://github.com/surroundaustralia/ontdoc-profile> ;
         prof:hasRole role:repository
     ] ,
     [
-        skos:prefLabel "Repository README file"@en ;
+        dcterms:title "Repository README file"@en ;
         dcterms:conformsTo <https://www.w3.org/TR/shacl/> ;
         dcterms:format "text/markdown" ;
         prof:hasArtifact <https://w3id.org/profile/ontdoc/validation.ttl> ;
